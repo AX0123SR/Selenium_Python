@@ -1,0 +1,11 @@
+2021-03-23 09:30:37,608: DEBUG: This is a Debug log
+2021-03-23 09:30:37,610: INFO: This is an Info log
+2021-03-23 09:30:37,610: WARNING: This is a Warning log
+2021-03-23 09:30:37,610: ERROR: This is an Error log
+2021-03-23 09:30:37,611: CRITICAL: This is a Critical log
+
+03/23/21 09:33:16 AM: DEBUG: This is a Debug log
+03/23/21 09:33:16 AM: INFO: This is an Info log
+03/23/21 09:33:16 AM: WARNING: This is a Warning log
+03/23/21 09:33:16 AM: ERROR: This is an Error log
+03/23/21 09:33:16 AM: CRITICAL: This is a Critical log

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.8.5 on win32)" generated="20220203 19:05:25.350" rpa="false" schemaversion="2">
+<suite id="s1" name="TC1" source="C:\Users\ayussriv\PycharmProjects\Automation_RobotFramework\TestCases\TC1.robot">
+<test id="s1-t1" name="LoginTest">
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<arg>Chrome</arg>
+<arg>executable_path="C:\\Users\\ayussriv\\Downloads\\chromedriver_win32 (6)\\chromedriver.exe"</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<msg timestamp="20220203 19:05:25.629" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg timestamp="20220203 19:05:25.631" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20220203 19:05:25.635" level="FAIL">WebDriverException: Message: 'chromedriver.exe"' executable may have wrong permissions. Please see https://chromedriver.chromium.org/home
+</msg>
+<status status="FAIL" starttime="20220203 19:05:25.629" endtime="20220203 19:05:25.635"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="NOT RUN" starttime="20220203 19:05:25.636" endtime="20220203 19:05:25.636"/>
+</kw>
+<status status="FAIL" starttime="20220203 19:05:25.627" endtime="20220203 19:05:25.636">WebDriverException: Message: 'chromedriver.exe"' executable may have wrong permissions. Please see https://chromedriver.chromium.org/home
+</status>
+</test>
+<status status="FAIL" starttime="20220203 19:05:25.352" endtime="20220203 19:05:25.639"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="TC1">TC1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
