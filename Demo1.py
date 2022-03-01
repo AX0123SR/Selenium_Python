@@ -6,5 +6,7 @@ driver = webdriver.Chrome(service=s)
 
 driver.get("https://www.amazon.in/")
 
-driver.find_element_by_xpath("//*[@id='nav-main']/div[1]").click()
+driver.find_element_by_xpath("//*[@id='nav-main']/div[1]").click() #(//span[contains(text(),"All")])[2]
 driver.find_element_by_xpath("//div[contains(text(),'Fire TV')]").click()
+
+driver.close()
